@@ -1,0 +1,291 @@
+2023-10-09 23:34:09.484025报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 810, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 664, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 463, in bookSeat
+    libid = data['variables']['libId']
+KeyError: 'libId'
+
+2023-10-09 23:34:52.391836报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 810, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 664, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 495, in bookSeat
+    if key == data['variables']['seatKey']:
+KeyError: 'seatKey'
+
+2023-10-09 23:35:20.039438报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 810, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 664, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 495, in bookSeat
+    if key == data['variables']['Key']:
+KeyError: 'Key'
+
+2023-10-09 23:36:21.787726报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 810, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 664, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 514, in bookSeat
+    if r_json['data']['userAuth']['reserve']['reserueSeat']:  # 如果返回的是True
+KeyError: 'reserve'
+
+2023-10-09 23:43:00.236510报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 835, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 689, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 543, in bookSeat
+    print(f'外置座位{dataFree["variables"]["seatKey"]}号请求的状态:{r.status_code}\n'
+KeyError: 'seatKey'
+
+2023-10-09 23:54:17.772769报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 829, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 683, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 550, in bookSeat
+    oftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']  # 常用座位列表
+KeyError: 'list'
+
+2023-10-09 23:56:26.742150报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 831, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 685, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 550, in bookSeat
+    oftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']  # 常用座位列表
+KeyError: 'list'
+
+2023-10-10 21:00:05.613674报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 834, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 688, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 377, in bookSeat
+    if responseInfo['data']['userAuth']['prereserve']['prereserve'] != None:
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-10 21:01:41.793053报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 834, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 688, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 364, in bookSeat
+    queue_together(queue_header)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 199, in queue_together
+    a = ws.recv()
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "D:\Python\python-3.7.2-amd64\lib\site-packages\websocket\_socket.py", line 123, in recv
+    "Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+2023-10-10 22:42:24.247211报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 834, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 688, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 557, in bookSeat
+    freeSeats = oftenseatsList[i]["num"]
+KeyError: 'num'
+
+2023-10-10 23:39:07.878269报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 841, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 695, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 619, in bookSeat
+    print(f'\n====座位{ofseat["variables"]["key"]}号通过请求和信息查询===\n'
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-11 20:49:51.103220报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 824, in main
+    fp.write(f"{datetime.datetime.now()}更新的cookie为:"+nowCookie)
+NameError: name 'nowCookie' is not defined
+
+2023-10-13 22:11:55.450387报错信息:
+Traceback (most recent call last):
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_http.py", line 156, in _get_addrinfo_list
+    hostname, port, 0, socket.SOCK_STREAM, socket.SOL_TCP)
+  File "D:\Python\python-3.7.2-amd64\Lib\socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 871, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 718, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 386, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 193, in queue_together
+    ws.connect("wss://wechat.v2.traceint.com/ws?ns=prereserve/queue", header=queue_header)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 250, in connect
+    options.pop('socket', None))
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_http.py", line 123, in connect
+    hostname, port_from_url, is_secure, proxy)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_http.py", line 167, in _get_addrinfo_list
+    raise WebSocketAddressException(e)
+websocket._exceptions.WebSocketAddressException: [Errno 11001] getaddrinfo failed
+
+2023-10-14 11:42:02.228621报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 888, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 735, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 388, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 223, in queue_together
+    a = ws.recv()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_socket.py", line 123, in recv
+    "Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+2023-10-14 21:08:00.049670报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 906, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 753, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 406, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 232, in queue_together
+    if a["data"] == 0 and run == False:
+TypeError: string indices must be integers
+
+2023-10-14 21:09:59.003086报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 907, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 754, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 407, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 233, in queue_together
+    if a["data"] == 0 and run == False:
+TypeError: string indices must be integers
+
+2023-10-14 23:18:21.382769报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 907, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 754, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 406, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 229, in queue_together
+    a = ws.recv()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\websocket\_socket.py", line 123, in recv
+    "Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+2023-10-16 20:59:59.997414报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 919, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 763, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 408, in bookSeat
+    queue_together(queue_header,openTime)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 235, in queue_together
+    if jrsp.has_key("data"):
+AttributeError: 'dict' object has no attribute 'has_key'
+
+2023-10-31 23:09:52.126110报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 980, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 791, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\明日预约(升级版20230927)\mainPrograms\明日预约挂机版.py", line 662, in bookSeat
+    libid = oftenseatsList[i]["lib_id"]
+IndexError: list index out of range
+
+2023-11-13 17:33:26.230430报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 953, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 771, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/明日预约(升级版20230927)/mainPrograms/明日预约挂机版.py", line 441, in bookSeat
+    firstRequest = response.post(url=url, json=oftenseats, verify=False, timeout=0)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\requests\adapters.py", line 483, in send
+    timeout = TimeoutSauce(connect=timeout, read=timeout)
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\urllib3\util\timeout.py", line 94, in __init__
+    self._connect = self._validate_timeout(connect, 'connect')
+  File "D:\Python\python-3.7.2-amd64\Lib\site-packages\urllib3\util\timeout.py", line 133, in _validate_timeout
+    "than or equal to 0." % (name, value))
+ValueError: Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.
+

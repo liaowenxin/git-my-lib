@@ -1,0 +1,29 @@
+{
+  "user": {
+    "openTime": "05:30:00",
+    "Cookie": "Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjM4MjMzMjE5LCJzY2hJZCI6MTAxLCJleHBpcmVBdCI6MTY5OTg4NTU2MX0.wsH3kOLLGw6xfGl2ccO0y4Zm8DlU76G46Szt897GH2FFMdlNhRzyVin0DNc8ckb866h-3G4UK8ddIjzk60vRg8na-Z4dl_YwNogKs0bQuP_fofbaOVO7zwUG7h28Z5AQYsF7lfcq7jNTZjOhG3PkH2uLs87iBtP1dGzIE-wiLOsNGqZnPJPnNWLR0rfhGCcm8rQ_ZEN7y6dWKBdGanM58Wle1FhayGkGNE2Ls6s5Vvhf3BsEx4HMhupz78EfIPwK1nyz4E2rM5ec0DY1ZmnUUkytKeOR1bgSAIB1XuDaf62lImaFvRjugT7J3RGnmaGznZ34zzGOomg0n2hCZSEM0g",
+    "name": "test0"
+  },
+  "expand_seats": {
+    "seat01": {
+      "lib_name": "电子阅览室",
+      "seat_name": "B605"
+    },
+    "seat02": {
+      "lib_name": "电子阅览室",
+      "seat_name": "B606"
+    },
+    "seat03": {
+      "lib_name": "电子阅览室",
+      "seat_name": "B209"
+    },
+    "seat04": {
+      "lib_name": "电子阅览室",
+      "seat_name": "B306"
+    },
+    "seat05": {
+      "lib_name": "电子阅览室",
+      "seat_name": "B409"
+    }
+  }
+}

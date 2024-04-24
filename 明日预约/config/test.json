@@ -1,0 +1,334 @@
+{
+  "user": {
+    "prereserveAuto": "false"
+  },
+  "currentUser": {
+    "sch": {
+      "isShowCommon": "True"
+    }
+  },
+  "prereserve": {
+    "libs": [
+      {
+        "is_open": "True",
+        "lib_floor": "1楼",
+        "lib_group_id": "0",
+        "lib_id": 114222,
+        "lib_name": "C101",
+        "num": 131,
+        "seats_total": 131
+      },
+      {
+        "is_open": True,
+        "lib_floor": "2楼",
+        "lib_group_id": "0",
+        "lib_id": 114221,
+        "lib_name": "C201职教特色库",
+        "num": 66,
+        "seats_total": 66
+      },
+      {
+        "is_open": True,
+        "lib_floor": "2楼",
+        "lib_group_id": "0",
+        "lib_id": 114223,
+        "lib_name": "D201文学理论及世界文学类图书",
+        "num": 70,
+        "seats_total": 70
+      },
+      {
+        "is_open": True,
+        "lib_floor": "2楼",
+        "lib_group_id": "0",
+        "lib_id": 114224,
+        "lib_name": "A201考研自习室",
+        "num": 191,
+        "seats_total": 191
+      },
+      {
+        "is_open": True,
+        "lib_floor": "3楼",
+        "lib_group_id": "0",
+        "lib_id": 114225,
+        "lib_name": "M301",
+        "num": 26,
+        "seats_total": 26
+      },
+      {
+        "is_open": True,
+        "lib_floor": "3楼",
+        "lib_group_id": "0",
+        "lib_id": 114226,
+        "lib_name": "D301",
+        "num": 65,
+        "seats_total": 65
+      },
+      {
+        "is_open": True,
+        "lib_floor": "3楼",
+        "lib_group_id": "0",
+        "lib_id": 114227,
+        "lib_name": "C301",
+        "num": 58,
+        "seats_total": 58
+      },
+      {
+        "is_open": True,
+        "lib_floor": "3楼",
+        "lib_group_id": "0",
+        "lib_id": 114228,
+        "lib_name": "M303",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": True,
+        "lib_floor": "3楼",
+        "lib_group_id": "0",
+        "lib_id": 114229,
+        "lib_name": "B301",
+        "num": 84,
+        "seats_total": 84
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114230,
+        "lib_name": "A401",
+        "num": 73,
+        "seats_total": 73
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114231,
+        "lib_name": "M401",
+        "num": 26,
+        "seats_total": 26
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114232,
+        "lib_name": "D401",
+        "num": 66,
+        "seats_total": 66
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114233,
+        "lib_name": "C401",
+        "num": 66,
+        "seats_total": 66
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114235,
+        "lib_name": "M402",
+        "num": 27,
+        "seats_total": 27
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114234,
+        "lib_name": "M403",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": True,
+        "lib_floor": "4楼",
+        "lib_group_id": "0",
+        "lib_id": 114237,
+        "lib_name": "B401",
+        "num": 82,
+        "seats_total": 82
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114238,
+        "lib_name": "M501",
+        "num": 26,
+        "seats_total": 26
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114239,
+        "lib_name": "M503",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114240,
+        "lib_name": "B501",
+        "num": 77,
+        "seats_total": 77
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114241,
+        "lib_name": "M502",
+        "num": 32,
+        "seats_total": 32
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114243,
+        "lib_name": "D501",
+        "num": 66,
+        "seats_total": 66
+      },
+      {
+        "is_open": True,
+        "lib_floor": "5楼",
+        "lib_group_id": "0",
+        "lib_id": 114244,
+        "lib_name": "C501",
+        "num": 67,
+        "seats_total": 67
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114250,
+        "lib_name": "D601",
+        "num": 66,
+        "seats_total": 66
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114249,
+        "lib_name": "M601",
+        "num": 26,
+        "seats_total": 26
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114247,
+        "lib_name": "M602",
+        "num": 32,
+        "seats_total": 32
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114248,
+        "lib_name": "A601",
+        "num": 70,
+        "seats_total": 70
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114246,
+        "lib_name": "M603",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": False,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 114245,
+        "lib_name": "C601",
+        "num": 0,
+        "seats_total": 0
+      },
+      {
+        "is_open": True,
+        "lib_floor": "7楼",
+        "lib_group_id": "0",
+        "lib_id": 114251,
+        "lib_name": "M705",
+        "num": 26,
+        "seats_total": 26
+      },
+      {
+        "is_open": True,
+        "lib_floor": "7楼",
+        "lib_group_id": "0",
+        "lib_id": 114252,
+        "lib_name": "M706",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": True,
+        "lib_floor": "7楼",
+        "lib_group_id": "0",
+        "lib_id": 114253,
+        "lib_name": "C701",
+        "num": 21,
+        "seats_total": 21
+      },
+      {
+        "is_open": True,
+        "lib_floor": "7楼",
+        "lib_group_id": "0",
+        "lib_id": 122014,
+        "lib_name": "B701",
+        "num": 24,
+        "seats_total": 24
+      },
+      {
+        "is_open": True,
+        "lib_floor": "6楼",
+        "lib_group_id": "0",
+        "lib_id": 119211,
+        "lib_name": "B601",
+        "num": 70,
+        "seats_total": 70
+      },
+      {
+        "is_open": True,
+        "lib_floor": "2楼",
+        "lib_group_id": "0",
+        "lib_id": 123945,
+        "lib_name": "B201电子阅览室",
+        "num": 59,
+        "seats_total": 59
+      }
+    ]
+  },
+  "oftenseat": {
+    "prereserveList": [
+      {
+        "id": 14767945,
+        "info": "D301 032号",
+        "lib_id": 114226,
+        "seat_key": "14,20",
+        "status": 0
+      },
+      {
+        "id": 14767938,
+        "info": "D301 034号",
+        "lib_id": 114226,
+        "seat_key": "16,21",
+        "status": 0}]}}

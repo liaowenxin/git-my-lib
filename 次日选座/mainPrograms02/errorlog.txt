@@ -1,0 +1,341 @@
+2023-09-22 12:58:27.925167报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 696, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 616, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 289, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 06:50:17.335224报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 652, in main
+    if not active[0]:
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 06:52:58.134799报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 712, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 620, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 293, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:13:01.836551报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 713, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 621, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 294, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:26:49.098728报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 717, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 625, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 298, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:27:54.993425报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 717, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 625, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 298, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:29:38.659127报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 717, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 625, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 298, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:31:05.462340报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 299, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:37:41.186813报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 227, in bookSeat
+    fp.write(f'当前时间为:{datetime.datetime.now()},\n'
+TypeError: Tuple or struct_time argument required
+
+2023-09-23 07:41:14.890827报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 299, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:43:11.182457报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 299, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:44:54.998595报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 299, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-23 07:45:54.619817报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 718, in main
+    bookTime=bookTime)#这里可以改成'test',用于直接测试选座功能(跳过排队,还要把倒计时功能注释掉!)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 626, in oneTread
+    bookSeat(url, header,seats_expand,openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230922.py", line 299, in bookSeat
+    responseInfo=responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-24 07:41:53.501295报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\mainPrograms02\SeatForEXE-version20230923.py", line 723, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\mainPrograms02\SeatForEXE-version20230923.py", line 628, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, bookTime)
+  File "D:\Python\TomorrowBook\mainPrograms02\SeatForEXE-version20230923.py", line 333, in bookSeat
+    responseInfo = responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-24 10:34:16.721495报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230923.py", line 724, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230923.py", line 613, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, bookTime)
+  File "D:/Python/TomorrowBook/mainPrograms02/SeatForEXE-version20230923.py", line 333, in bookSeat
+    responseInfo = responseOftenSeats['data']['userAuth']['reserve']['reserve']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-09-30 08:11:48.418384报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 758, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 634, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 419, in bookSeat
+    raise ConnectionError
+ConnectionError
+
+2023-09-30 08:49:23.223844报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 636, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 419, in bookSeat
+    raise ConnectionError("选座请求异常!")
+ConnectionError: 选座请求异常!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 790, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 689, in oneTread
+    if e.strerror.find("u5c1d") or e.strerror.find("u5237"):
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2023-09-30 10:10:56.392040报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 795, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 638, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 375, in bookSeat
+    responseOftenSeats = response.post(url=url, json=home, verify=False).json()
+UnboundLocalError: local variable 'home' referenced before assignment
+
+2023-09-30 10:14:35.114623报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 799, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 642, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 326, in bookSeat
+    oftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']  # 常用座位列表
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-10 18:52:12.203847报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 794, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 644, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 525, in bookSeat
+    libid = oftenseatsList[i]["lib_id"]
+IndexError: list index out of range
+
+2023-10-10 18:55:26.060989报错信息:
+Traceback (most recent call last):
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 794, in main
+    bookTime=bookTime)
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 644, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:\Python\TomorrowBook\次日选座\mainPrograms02\SeatForEXE-version20230923.py", line 525, in bookSeat
+    libid = oftenseatsList[i]["lib_id"]
+IndexError: list index out of range
+
+2023-10-15 13:19:00.497754报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 844, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 687, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 424, in bookSeat
+    print(f"{seat['info']}装填完毕!")
+KeyError: 'info'
+
+2023-10-15 13:35:42.679893报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 763, in main
+    if not active[0]:
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-16 21:17:21.374684报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 850, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 687, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 331, in bookSeat
+    oftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']  # 常用座位列表
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-16 21:18:47.764071报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 850, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 687, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 498, in bookSeat
+    seatsInfo = lib['data']['userAuth']['reserve']['libs'][0]['lib_layout']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-16 21:57:28.298807报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 844, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 687, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231015.py", line 498, in bookSeat
+    seatsInfo = lib['data']['userAuth']['reserve']['libs'][0]['lib_layout']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-17 13:36:35.635661报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 771, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 608, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 365, in bookSeat
+    if ofseat > 0:
+TypeError: '>' not supported between instances of 'dict' and 'int'
+
+2023-10-17 14:06:00.897814报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 773, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 610, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20230923.py", line 347, in bookSeat
+    AfteroftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-17 14:52:37.505144报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版.py", line 793, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版.py", line 630, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版.py", line 351, in bookSeat
+    AfteroftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-18 07:25:02.011615报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版.py", line 750, in main
+    if not active[0]:
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-18 08:48:23.583167报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 809, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 644, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 377, in bookSeat
+    AfteroftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-10-18 08:48:59.816480报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 809, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 644, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 377, in bookSeat
+    AfteroftenseatsList = responseOftenSeats['data']['userAuth']['oftenseat']['list']
+TypeError: 'NoneType' object is not subscriptable
+
+2023-11-08 11:23:55.038129报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 741, in main
+    if not active[0]:
+TypeError: 'NoneType' object is not subscriptable
+
+2023-11-11 21:24:24.986026报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 827, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 673, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 597, in bookSeat
+    if r_json['data']['userAuth']['reserve']['reserueSeat'] and responseInfo is not None:  # 如果返回的是True
+KeyError: 'reserueSeat'
+
+2023-11-11 21:31:37.762978报错信息:
+Traceback (most recent call last):
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 827, in main
+    bookTime=bookTime)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 673, in oneTread
+    bookSeat(url, newheader, seats_expand, openTime, newTime, directBook)
+  File "D:/Python/TomorrowBook/次日选座/mainPrograms02/SeatForEXE-version20231017常用升级版倒计时为到整点不提前.py", line 597, in bookSeat
+    if r_json['data']['userAuth']['reserve']['reserveSeat'] and responseInfo is not None:  # 如果返回的是True
+KeyError: 'reserveSeat'
+
