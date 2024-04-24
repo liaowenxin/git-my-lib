@@ -1,0 +1,2 @@
+# git-my-lib
+library
